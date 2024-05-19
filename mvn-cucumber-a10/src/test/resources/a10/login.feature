@@ -37,4 +37,3 @@ Feature: User Login
     When I enter my username "" and password "wrongpass"
     And I click the login button
     Then I should see a message saying "You need Username !"
-

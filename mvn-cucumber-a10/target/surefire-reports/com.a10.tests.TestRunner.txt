@@ -1,16 +1,19 @@
 -------------------------------------------------------------------------------
 Test set: com.a10.tests.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 6, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 11.366 s <<< FAILURE! - in com.a10.tests.TestRunner
-[T0.0.3] Login with wrong password(User Login)  Time elapsed: 1.611 s  <<< FAILURE!
+Tests run: 7, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 14.957 s <<< FAILURE! - in com.a10.tests.TestRunner
+[T0.0.3] Login with wrong password(User Login)  Time elapsed: 1.845 s  <<< FAILURE!
 java.lang.AssertionError: Expected error message : 'Username and password do not match any user in this service!' not found. Found: Epic sadface: Username and password do not match any user in this service
 
-[T0.0.2] Login with wrong username(User Login)  Time elapsed: 1.517 s  <<< FAILURE!
+[T0.0.2] Login with wrong username(User Login)  Time elapsed: 1.802 s  <<< FAILURE!
 java.lang.AssertionError: Expected error message : 'Username and password do not match any user in this service!' not found. Found: Epic sadface: Username and password do not match any user in this service
 
-[T0.0.4] Login with no password(User Login)  Time elapsed: 1.431 s  <<< FAILURE!
+[T0.0.4] Login with no password(User Login)  Time elapsed: 1.722 s  <<< FAILURE!
 java.lang.AssertionError: Expected error message : 'You need Password !' not found. Found: Epic sadface: Password is required
 
-[T0.0.5] Login with no username(User Login)  Time elapsed: 1.582 s  <<< FAILURE!
+[T0.0.5] Login with no username(User Login)  Time elapsed: 1.745 s  <<< FAILURE!
 java.lang.AssertionError: Expected error message : 'You need Username !' not found. Found: Epic sadface: Username is required
+
+[T0.0.6] Login with nothing cuz im a dumbass(User Login)  Time elapsed: 1.696 s  <<< FAILURE!
+java.lang.AssertionError: Expected error message : 'You need Username & Password !' not found. Found: Epic sadface: Username is required
 
