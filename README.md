@@ -66,15 +66,19 @@ Berikut ini merupakan struktur kode
    ```
    git clone https://https://github.com/RaditPasya/MVN-Cucumber-Testing.git
    ```
-2. Jalankan perintah berikut untuk menginstall artifak yang didefinisikan
+2. Jalankan perintah berikut untuk masuk ke folder project
+   ```bat
+   cd mvn-**
+   ```
+3. Jalankan perintah berikut untuk menginstall artifak yang didefinisikan
    ```
    mvn clean install
    ```
-3. Jalankan perintah berikut pada terminal untuk menjalankan semua test
+4. Jalankan perintah berikut pada terminal untuk menjalankan semua test
    ```
    mvn surefire-report:report
    ```
-3. Jalankan perintah berikut pada terminal untuk melihat report
+5. Jalankan perintah berikut pada terminal untuk melihat report
    ```bat
    start target\site\surefire-report.html
    ```
