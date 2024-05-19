@@ -1,0 +1,6 @@
+com\a10\pagefactory\HomePageFactory.class
+com\a10\steps\LoginSteps.class
+com\a10\helper\A10WebDriverManager.class
+com\a10\steps\LogoutSteps.class
+com\a10\pagefactory\LoginPageFactory.class
+com\a10\tests\TestRunner.class
