@@ -37,3 +37,10 @@ Feature: User Login
     When I enter my username "" and password "wrongpass"
     And I click the login button
     Then I should see a message saying "You need Username !"
+
+    @azisTest
+  Scenario: [T0.0.6] Login with nothing cuz im a dumbass
+    Given I am on the login page
+    When I enter my username "" and password ""
+    And I click the login button
+    Then I should see a message saying "You need Username & Password !"
